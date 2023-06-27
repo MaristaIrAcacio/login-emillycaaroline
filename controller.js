@@ -11,9 +11,7 @@ function acessar() {
         alert("favor preencha os campos para acessar o site");
 
     } else {
-
-       alert("Campos preenchidos com sucesso");
-
+        window.location.href = "aula2.html";
     }
 
 }
